@@ -1,0 +1,57 @@
+.container {
+  height: 100vh;
+  max-height: calc(100vh - 145px);
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  overflow-y: scroll;
+  border-radius: 8px;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  left: 0;
+  font-size: 24px;
+  color: #33595f;
+  background-color: #e5ebe9;
+  top: 0;
+  left: 0;
+}
+
+tbody {
+  font-size: 20px;
+  color: #3c5558;
+  display: block;
+  height: 100%;
+  overflow-y: auto;
+}
+
+td {
+  padding: 5px;
+}
+
+td:first-child {
+  width: 50px;
+  padding-left: 15px;
+}
+
+tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  height: 50px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+tbody tr:hover {
+  background-color: #eaf1ef73;
+  cursor: pointer;
+}

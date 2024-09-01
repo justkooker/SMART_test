@@ -1,0 +1,17 @@
+.input {
+  width: 100%;
+  max-width: 250px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid rgb(202, 245, 241);
+  font-size: 18px;
+  padding: 5px;
+
+  &:focus-visible {
+    outline: none;
+  }
+  
+  &::placeholder {
+    font-size: 16px;
+  }
+}

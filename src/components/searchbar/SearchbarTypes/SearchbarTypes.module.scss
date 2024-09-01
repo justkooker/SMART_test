@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  gap: 7.5px;
+}
+
+input {
+  margin: 0;
+}
+
+label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 18px;
+  color: #161a19;
+  padding-right: 7.5px;
+}
+
+label:not(:last-child) {
+  border-right: 1px solid #bececabb;
+}
+
+span {
+  font-size: 18px;
+  margin-right: 10px;
+}
